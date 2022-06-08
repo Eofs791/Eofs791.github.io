@@ -2043,7 +2043,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #ffffff;
 		}
 
 		input[type="checkbox"]:focus + label:before,
