@@ -20,7 +20,7 @@ var timeOut;
 }
 //修改title
 window.onfocus = function () {
-	document.title = '恢复正常了...(゜-゜)つロ 干杯~';
+	document.title = 'Garden of Avalon';
 };
 window.onblur = function () {
 	document.title = '快回来~页面崩溃了';
