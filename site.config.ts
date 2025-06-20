@@ -26,10 +26,10 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'GitHub',
-      link: 'https://github.com/Eofs791',
-      icon: 'i-ri-github-line',
-      color: '#6e5494',
+      name: 'Bangumi',
+      link: 'https://bgm.tv/user/eofs',
+      icon: 'i-ri-tv-line',
+      color: '#FF8EB3',
     },
     {
       name: '哔哩哔哩',
@@ -44,17 +44,29 @@ export default defineSiteConfig({
       color: 'black',
     },
     {
+      name: 'Steam',
+      link: 'https://steamcommunity.com/id/CatCake791/',
+      icon: 'i-ri-steam-line',
+      color: 'black',
+    },
+    {
+      name: 'QQ',
+      link: 'https://qm.qq.com/q/XBnLzH6sE0',
+      icon: 'i-ri-qq-line',
+    },
+    {
+      name: 'GitHub',
+      link: 'https://github.com/Eofs791',
+      icon: 'i-ri-github-line',
+      color: '#6e5494',
+    },
+    {
       name: 'E-Mail',
       link: 'mailto:791sno@gmail.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
-        {
-      name: 'Bangumi',
-      link: 'https://bgm.tv/user/eofs',
-      icon: 'i-ri-tv-line',
-      color: '#FF8EB3',
-    },
+
   ],
 
   mediumZoom: { enable: true },
