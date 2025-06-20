@@ -22,17 +22,17 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '分类',
+        name: '',
         url: '/categories/',
         icon: 'i-ri-apps-line',
       },
       {
-        name: '标签',
+        name: '',
         url: '/tags/',
         icon: 'i-ri-bookmark-3-line',
       },
       {
-        name: '网页收藏',
+        name: '',
         url: '/links/',
         icon: 'i-ri-links-fill',
         
