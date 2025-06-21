@@ -33,6 +33,11 @@ declare module 'vue-router/auto-routes' {
     '/posts/0003/NieR Automata ': RouteRecordInfo<'/posts/0003/NieR Automata ', '/posts/0003/NieR Automata ', Record<never, never>, Record<never, never>>,
     '/posts/0004/MY HOME HERO': RouteRecordInfo<'/posts/0004/MY HOME HERO', '/posts/0004/MY HOME HERO', Record<never, never>, Record<never, never>>,
     '/posts/0005': RouteRecordInfo<'/posts/0005', '/posts/0005', Record<never, never>, Record<never, never>>,
+    '/posts/1000': RouteRecordInfo<'/posts/1000', '/posts/1000', Record<never, never>, Record<never, never>>,
+    '/posts/1002/1002': RouteRecordInfo<'/posts/1002/1002', '/posts/1002/1002', Record<never, never>, Record<never, never>>,
+    '/posts/1003/1003': RouteRecordInfo<'/posts/1003/1003', '/posts/1003/1003', Record<never, never>, Record<never, never>>,
+    '/posts/2021/2021': RouteRecordInfo<'/posts/2021/2021', '/posts/2021/2021', Record<never, never>, Record<never, never>>,
+    '/posts/2024/2024': RouteRecordInfo<'/posts/2024/2024', '/posts/2024/2024', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
