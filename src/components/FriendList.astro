@@ -1,0 +1,89 @@
+---
+import LinkCard from "./LinkCard.astro";
+import { friendsData } from "@/data/links/friends/friends";
+import { shuffleArray } from "@/utils/shuffleArray";
+---
+
+<div class="space-y-12">
+  {
+    friendsData.map(category => (
+      <section class="link-section">
+        <div class="link-header">
+          <div class="link-header-1">
+            <span class="link-category-name">{category.name}</span>
+            <span class="link-count">{category.links.length}</span>
+          </div>
+          <div class="link-header-2">
+            <span class="link-category-desc">{category.desc}</span>
+            <div class="link-line" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {shuffleArray(category.links).map(linkData => (
+            <LinkCard link={linkData} />
+          ))}
+        </div>
+      </section>
+    ))
+  }
+</div>
+
+<style>
+  .link-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .link-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link-header-1,
+  .link-header-2 {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+    margin: .2rem;
+  }
+
+  .link-category-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(
+      135deg,
+      var(--color-foreground),
+      var(--color-accent)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .link-count {
+    align-self: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  }
+
+  .link-desc {
+    width: 100%;
+  }
+
+  .link-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--color-accent) 15%, transparent),
+      transparent
+    );
+  }
+</style>

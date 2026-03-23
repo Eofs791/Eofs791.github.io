@@ -1,0 +1,86 @@
+---
+import type { CategoryTreeItem } from '@/utils/getCategories';
+import { getPath } from '@/utils/getPath';
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  tree: CategoryTreeItem[];
+}
+
+const { tree } = Astro.props;
+---
+
+<ul class="space-y-2">
+  {
+    tree.map(node => (
+      <li>
+        <details class="group">
+          <summary class="folder-summary flex cursor-pointer items-center gap-3 rounded-xl px-4 py-3 transition-all duration-300">
+            <Icon name="ri:folder-add-line" class="text-xl text-[var(--color-accent)] group-open:hidden" />
+            <Icon name="ri:folder-reduce-line" class="text-xl text-[var(--color-accent)] hidden group-open:block" />
+            
+            <span class="font-semibold tracking-wide text-[var(--color-foreground)]">
+              {node.name}
+            </span>
+            
+            <span class="folder-badge ml-auto flex items-center justify-center rounded-full px-2.5 py-0.5 text-xs font-mono font-bold backdrop-blur-md">
+              {node.posts.length + node.children.length}
+            </span>
+          </summary>
+
+          <div class="folder-content ml-[1.15rem] mt-1 border-l border-dashed pl-5 py-2">
+            {node.children.length > 0 && <Astro.self tree={node.children} />}
+
+            <ul class="space-y-1 mt-2">
+              {node.posts.map(post => (
+                <li>
+                  <a 
+                    href={getPath(post.id, post.filePath)} 
+                    class="post-link group/link flex cursor-pointer items-center gap-2 rounded-lg px-3 py-2 text-sm transition-all duration-200"
+                  >
+                    <Icon name="ri:file-text-line" class="opacity-60 transition-opacity duration-200 group-hover/link:opacity-100" />
+                    <span class="truncate">{post.data.title}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .folder-summary {
+    list-style: none;
+    border: 1px solid transparent;
+  }
+  .folder-summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .folder-summary:hover {
+    background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+    border-color: color-mix(in srgb, var(--color-accent) 15%, transparent);
+  }
+
+  .folder-badge {
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-accent) 15%, transparent);
+  }
+
+  .folder-content {
+    border-left-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  }
+
+  .post-link {
+    color: color-mix(in srgb, var(--color-foreground) 80%, transparent);
+  }
+  .post-link:hover {
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 5%, transparent);
+    transform: translateX(4px);
+  }
+</style>

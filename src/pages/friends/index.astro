@@ -1,0 +1,141 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/Layout.astro";
+import PageHero from "@/components/PageHero.astro";
+import FriendList from "@/components/FriendList.astro";
+import { SITE } from "@/config";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import { friendsData } from "@/data/links/friends/friends";
+import { Code } from "astro:components";
+import Waline from "@/components/Waline.astro";
+
+const friendsCount = friendsData.reduce(
+  (total, category) => total + category.links.length,
+  0
+);
+const heroBadges = [`${friendsCount} links`];
+
+const friendData = `  url: "https://eofs791.github.io",
+  avatar: "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",
+  name: "Catarium",
+  desc: "见崎的猫箱"
+`;
+const friendDataTemp = `  url: "博客URL",
+  avatar: "头像URL",
+  name: "博客名称",
+  desc: "博客描述"
+`;
+---
+
+<Layout title={`Friends | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="friends app-layout pb-12">
+    <PageHero title="友人帐" badges={heroBadges} />
+    <p>尝试让箱庭变得稍微热闹一些。</p>
+    <div class="friends-apply">
+      <div class="apply-desc">
+        <p>
+          欢迎来交换友链，下方评论或发送邮件至791sno@gmail.com即可，感谢认可
+          &gt; &lt;<br />友链申请的要求与大部分博客相同，一般来者不拒
+        </p>
+      </div>
+      <div class="apply-info">
+        <details>
+          <summary>我的博客信息</summary>
+          <Code code={friendData} lang="ts" />
+        </details>
+        <details>
+          <summary>友链交换格式（以任意形式提供以下信息即可）</summary>
+          <Code code={friendDataTemp} lang="ts" />
+        </details>
+      </div>
+    </div>
+
+    <p>以下顺序随机，不分先后，总之都是我很喜欢的站点~</p>
+    <FriendList />
+    <Waline />
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .friends p {
+    margin: 1rem;
+  }
+
+  .apply-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    align-items: start;
+  }
+
+  @media (min-width: 768px) {
+    .apply-info {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .apply-info details {
+    background: color-mix(
+      in srgb,
+      var(--color-foreground) 3%,
+      var(--color-background)
+    );
+    border: 1px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .apply-info details:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 50%, transparent);
+    box-shadow: 0 4px 20px
+      color-mix(in srgb, var(--color-accent) 15%, transparent);
+    transform: translateY(-2px);
+  }
+
+  .apply-info summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--color-accent);
+    outline: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    transition: color 0.3s ease;
+  }
+
+  .apply-info summary::before {
+    content: "▹";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+  }
+
+  .apply-info details[open] summary {
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed
+      color-mix(in srgb, var(--color-border) 50%, transparent);
+    padding-bottom: 0.5rem;
+  }
+
+  .apply-info details[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .apply-info p {
+    font-size: 0.9rem;
+    color: var(--color-foreground);
+    opacity: 0.8;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+</style>

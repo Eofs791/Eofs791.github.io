@@ -1,0 +1,95 @@
+---
+import type { Link } from "@/types/link";
+
+interface Props {
+  link: Link;
+}
+
+const { link } = Astro.props;
+---
+
+<a href={link.url} target="_blank" class="link-item">
+  <div class="link-avatar">
+    <img
+      src={link.avatar || "/images/default-avatar.jpg"}
+      alt={link.name}
+      onerror="this.onerror=null; this.src='/images/default-avatar.jpg';"
+    />
+  </div>
+  <div class="link-info">
+    <span class="link-name">{link.name}</span>
+    <span class="link-desc">{link.desc}</span>
+  </div>
+</a>
+
+<style>
+  .link-item {
+    position: relative;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background: color-mix(
+      in srgb,
+      var(--color-foreground) 2%,
+      var(--color-background)
+    );
+    border: 1px solid
+      color-mix(in srgb, var(--color-foreground) 6%, transparent);
+    overflow: hidden;
+    transition:
+      transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 0.3s ease,
+      box-shadow 0.3s ease;
+    text-decoration: none;
+    color: var(--color-foreground);
+    isolation: isolate;
+  }
+
+  .link-item:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
+    box-shadow:
+      0 10px 40px -10px color-mix(in srgb, var(--color-accent) 15%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--color-accent) 8%, transparent),
+      inset 0 1px 0 color-mix(in srgb, var(--color-accent) 6%, transparent);
+  }
+
+  .link-avatar {
+    flex-shrink: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .link-avatar img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .link-info {
+    flex: 1;
+    display: flex;         
+    flex-direction: column; 
+    justify-content: center;
+  }
+
+  .link-info .link-name {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .link-info .link-desc {
+    display: block;
+    font-size: 13px;
+    opacity: 0.7;
+  }
+</style>

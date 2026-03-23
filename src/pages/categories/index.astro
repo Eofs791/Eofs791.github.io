@@ -1,0 +1,28 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/Layout.astro";
+import PageHero from "@/components/PageHero.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import { SITE } from "@/config";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
+import { getCategoryTree } from "@/utils/getCategories";
+import CategoryFolder from "@/components/CategoryFolder.astro";
+
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+const categoryTree = getCategoryTree(sortedPosts);
+
+const heroBadges = [`${sortedPosts.length} posts`];
+---
+
+<Layout title={`Categories | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout pb-12">
+    <PageHero title="抽屉柜" badges={heroBadges} />
+    <CategoryFolder tree={categoryTree} />
+  </main>
+  <Footer />
+</Layout>
