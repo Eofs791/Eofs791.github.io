@@ -15,7 +15,7 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.website,
+  site: 'eofs791.github.io',
   integrations: [
     mdx({
       extendMarkdownConfig: true,
