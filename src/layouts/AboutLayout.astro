@@ -26,7 +26,7 @@ const { frontmatter } = Astro.props;
         <div class="avatar-ring">
           <div class="avatar-glow"></div>
           <div class="avatar-inner">
-            <span class="avatar-emoji"><img src="https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.svg"></span>
+            <span class="avatar-emoji"><img src="/avatar.svg"></span>
           </div>
         </div>
         <h1 class="hero-title">
@@ -131,7 +131,7 @@ const { frontmatter } = Astro.props;
     border-radius: 50%;
     filter: blur(60px);
     pointer-events: none;
-    will-change: transform;
+    /* will-change: transform; */
   }
 
   .aurora-orb-1 {
@@ -144,7 +144,7 @@ const { frontmatter } = Astro.props;
       color-mix(in srgb, var(--color-accent) 25%, transparent),
       transparent 70%
     );
-    animation: orb-1 7s ease-in-out infinite alternate;
+    /*animation: orb-1 7s ease-in-out infinite alternate;*/
   }
 
   .aurora-orb-2 {
@@ -157,7 +157,7 @@ const { frontmatter } = Astro.props;
       color-mix(in srgb, var(--color-border) 22%, transparent),
       transparent 70%
     );
-    animation: orb-2 9s ease-in-out infinite alternate;
+    /* animation: orb-2 9s ease-in-out infinite alternate; */
   }
 
   .aurora-orb-3 {
@@ -170,7 +170,7 @@ const { frontmatter } = Astro.props;
       color-mix(in srgb, var(--color-accent) 15%, transparent),
       transparent 70%
     );
-    animation: orb-3 11s ease-in-out infinite alternate;
+    /* animation: orb-3 11s ease-in-out infinite alternate; */
   }
 
   @keyframes orb-1 {
