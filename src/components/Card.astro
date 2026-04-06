@@ -11,7 +11,7 @@ type Props = {
 
 const { variant: Heading = "h2", featured = false, id, data, filePath } = Astro.props;
 
-const { title, description, ...props } = data;
+const { title, description, ogImage, ...props } = data as any;
 ---
 
 <li
@@ -25,37 +25,47 @@ const { title, description, ...props } = data;
     featured && "border-accent/40 bg-accent/5 shadow-[0_0_20px_-5px_rgba(var(--accent),0.15)]",
   ]}
 >
-  <!-- Cursor-following glow -->
   <div
     class="card-glow-effect pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover/card:opacity-100"
     aria-hidden="true"
   >
   </div>
-  <!-- Noise dithering -->
   <div
     class="card-noise pointer-events-none absolute inset-0 z-1 rounded-2xl opacity-0 transition-opacity duration-300 group-hover/card:opacity-100"
     aria-hidden="true"
   >
   </div>
 
-  <div class="relative z-5">
-    <a
-      href={getPath(id, filePath)}
-      class="text-lg font-semibold text-foreground transition-colors duration-200 group-hover/card:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-sm"
-      style={{ viewTransitionName: slugifyStr(String(title).replaceAll(".", "-")) }}
-    >
-      <Heading>
-        {title}
-      </Heading>
-      <!-- Expand clickable area to whole card on top of everything, minus the description -->
-      <span class="absolute -inset-4 sm:-inset-5 z-10" aria-hidden="true"></span>
-    </a>
+  <div class="relative z-5 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
     
-    <Datetime pubDatetime={props.pubDatetime as string | Date} modDatetime={props.modDatetime as string | Date | null | undefined} class="relative z-20 mt-1.5 pointer-events-none" />
-    
-    <p class="relative z-20 mt-2 line-clamp-2 text-sm leading-relaxed opacity-65 pointer-events-auto select-text">
-      {description}
-    </p>
+    {ogImage && (
+      <div class="w-full sm:w-1/2 shrink-0 image-clip-wrapper overflow-hidden rounded-xl">
+        <img
+          src={ogImage}
+          alt={title}
+          class="w-full h-50 sm:h-45 object-cover transition-transform duration-500 group-hover/card:scale-105"
+        />
+      </div>
+    )}
+
+    <div class="flex-1 w-full flex flex-col justify-center py-1">
+      <a
+        href={getPath(id, filePath)}
+        class="text-lg font-semibold text-foreground transition-colors duration-200 group-hover/card:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-sm inline-block"
+        style={{ viewTransitionName: slugifyStr(String(title).replaceAll(".", "-")) }}
+      >
+        <Heading>
+          {title}
+        </Heading>
+        <span class="absolute -inset-4 sm:-inset-5 z-10" aria-hidden="true"></span>
+      </a>
+      
+      <Datetime pubDatetime={props.pubDatetime as string | Date} modDatetime={props.modDatetime as string | Date | null | undefined} class="relative z-20 mt-1.5 pointer-events-none" />
+      
+      <p class="relative z-20 mt-2 line-clamp-2 text-sm leading-relaxed opacity-65 pointer-events-auto select-text">
+        {description}
+      </p>
+    </div>
   </div>
 </li>
 
@@ -82,5 +92,11 @@ const { title, description, ...props } = data;
   }
   .group\/card:hover .card-noise {
     opacity: 0.4;
+  }
+
+  @media (min-width: 640px) {
+    .image-clip-wrapper {
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    }
   }
 </style>
