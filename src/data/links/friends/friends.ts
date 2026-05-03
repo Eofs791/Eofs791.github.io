@@ -81,6 +81,12 @@ export const friendsData: LinkCategory[] = [
             url: "https://cloud09.space/",
             avatar: "https://raw.githubusercontent.com/cloud-oc/picx-images-hosting/refs/heads/master/Origin/Cloud_icon.pfpafpaii.png?spaceId=62ea150e-ff98-40ae-986e-7a386289383f&t=2e3b58d0-50e3-805b-8971-e02a5ca666a9",
             desc: "云零九空间"
+        },
+        {
+            url: "https://www.nekro.top/",
+            avatar: "https://avatars.githubusercontent.com/u/90670998?v=4",
+            name: "Nekro’s SEKAI",
+            desc: "Nekro 的日常记录与经验分享。"
         }]
     },
     {
