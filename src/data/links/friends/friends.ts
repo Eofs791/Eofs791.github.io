@@ -87,6 +87,12 @@ export const friendsData: LinkCategory[] = [
             avatar: "https://avatars.githubusercontent.com/u/90670998?v=4",
             name: "Nekro’s SEKAI",
             desc: "Nekro 的日常记录与经验分享。"
+        }，
+        {
+            name: "VnYzm的博客",
+            url: "https://vnyzm.top",
+            desc: "分享技术心得和摸鱼感想",
+            avatar: "https://vnyzm.top/img/profile.jpg"
         }]
     },
     {
