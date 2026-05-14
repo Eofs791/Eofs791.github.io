@@ -4,96 +4,98 @@ export const friendsData: LinkCategory[] = [
     {
         name: "小伙伴们",
         desc: "感谢你与我交换友链！",
-        links: [{
-            name: "Mete0r",
-            url: "https://www.xscnas.top",
-            avatar: "https://img.xscnet.cn//i/2025/07/09/686e64ec429db.png",
-            desc: "Trust the process."
-        },
-        {
-            name: "孟古一",
-            url: "https://blog.mengguyi.com/",
-            avatar: "https://blog.mengguyi.com/logo.avif",
-            desc: "世界上没有绝对的正义，只有不同的观点和立场。"
-        },
-        {
-            name: "默然",
-            url: "https://moran-neko.moe/",
-            avatar: "https://moran-neko.moe/img/mortis.png",
-            desc: "一个野生的互联网存档点"
-        },
-        {
-            name: "雨宮雪乃",
-            url: "https://iamyukino.cn/",
-            avatar: "https://iamyukino.cn/favicon.ico",
-            desc: "一隅雨雪一炉窝，可能会融化持久堆？"
-        },
-        {
-            name: "LgCookie",
-            url: "https://www.lgc2333.top/",
-            avatar: "https://blog.lgc2333.top/assets/favicon.png",
-            desc: "一大块小饼干"
-        },
-        {
-            name: "纸鹿本鹿",
-            url: "https://blog.zhilu.site/",
-            avatar: "https://www.zhilu.site/api/avatar.png",
-            desc: "纸鹿至麓不知路，支炉制露不止漉"
-        },
-        {
-            name: "Ariasaka",
-            url: "https://blog.yaria.top",
-            avatar: "https://img.0v0.my/2024/12/05/67517bcf104da.png",
-            desc: "人有悲欢离合 月有阴晴圆缺"
-        },
-        {
-            name: "吐槽大王部落格",
-            url: "https://www.tcdw.net/",
-            avatar: "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
-            desc: "正在学习接受不完美的世界"
-        },
-        {
-            name: "cosine",
-            url: "https://blog.cosine.ren/",
-            avatar: "https://blog.cosine.ren/img/avatar.webp",
-            desc: "= WA 的一声就哭了 ="
-        },
-        {
-            name: "存在感消失的地方|ω•`)",
-            url: "https://akarin.dev/",
-            avatar: "https://avatars.githubusercontent.com/u/47057319?s=128",
-            desc: "身处寒夜 把握星光✨"
-        },
-        {
-            name: "CBDT的小站",
-            url: "https://www.weitao-jiang.cn",
-            avatar: "https://www.weitao-jiang.cn/images/avatar.jpg",
-            desc: "漂泊在互联网一角的牢无一只"
-        },
-        {
-            name: "维基萌",
-            url: "https://www.wikimoe.com/",
-            avatar: "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
-            desc: "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
-        },
-        {
-            name: "Cloud09_Space",
-            url: "https://cloud09.space/",
-            avatar: "https://raw.githubusercontent.com/cloud-oc/picx-images-hosting/refs/heads/master/Origin/Cloud_icon.pfpafpaii.png?spaceId=62ea150e-ff98-40ae-986e-7a386289383f&t=2e3b58d0-50e3-805b-8971-e02a5ca666a9",
-            desc: "云零九空间"
-        },
-        {
-            url: "https://www.nekro.top/",
-            avatar: "https://avatars.githubusercontent.com/u/90670998?v=4",
-            name: "Nekro’s SEKAI",
-            desc: "Nekro 的日常记录与经验分享。"
-        },
-        {
-            name: "VnYzm的博客",
-            url: "https://vnyzm.top",
-            desc: "分享技术心得和摸鱼感想",
-            avatar: "https://vnyzm.top/img/profile.jpg"
-        }]
+        links: [
+            {
+                name: "Mete0r",
+                url: "https://www.xscnas.top",
+                avatar: "https://img.xscnet.cn//i/2025/07/09/686e64ec429db.png",
+                desc: "Trust the process."
+            },
+            {
+                name: "孟古一",
+                url: "https://blog.mengguyi.com/",
+                avatar: "https://blog.mengguyi.com/logo.avif",
+                desc: "世界上没有绝对的正义，只有不同的观点和立场。"
+            },
+            {
+                name: "默然",
+                url: "https://moran-neko.moe/",
+                avatar: "https://moran-neko.moe/img/mortis.png",
+                desc: "一个野生的互联网存档点"
+            },
+            {
+                name: "雨宮雪乃",
+                url: "https://iamyukino.cn/",
+                avatar: "https://iamyukino.cn/favicon.ico",
+                desc: "一隅雨雪一炉窝，可能会融化持久堆？"
+            },
+            {
+                name: "LgCookie",
+                url: "https://www.lgc2333.top/",
+                avatar: "https://blog.lgc2333.top/assets/favicon.png",
+                desc: "一大块小饼干"
+            },
+            {
+                name: "纸鹿本鹿",
+                url: "https://blog.zhilu.site/",
+                avatar: "https://www.zhilu.site/api/avatar.png",
+                desc: "纸鹿至麓不知路，支炉制露不止漉"
+            },
+            {
+                name: "Ariasaka",
+                url: "https://blog.yaria.top",
+                avatar: "https://img.0v0.my/2024/12/05/67517bcf104da.png",
+                desc: "人有悲欢离合 月有阴晴圆缺"
+            },
+            {
+                name: "吐槽大王部落格",
+                url: "https://www.tcdw.net/",
+                avatar: "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
+                desc: "正在学习接受不完美的世界"
+            },
+            {
+                name: "cosine",
+                url: "https://blog.cosine.ren/",
+                avatar: "https://blog.cosine.ren/img/avatar.webp",
+                desc: "= WA 的一声就哭了 ="
+            },
+            {
+                name: "存在感消失的地方|ω•`)",
+                url: "https://akarin.dev/",
+                avatar: "https://avatars.githubusercontent.com/u/47057319?s=128",
+                desc: "身处寒夜 把握星光✨"
+            },
+            {
+                name: "CBDT的小站",
+                url: "https://www.weitao-jiang.cn",
+                avatar: "https://www.weitao-jiang.cn/images/avatar.jpg",
+                desc: "漂泊在互联网一角的牢无一只"
+            },
+            {
+                name: "维基萌",
+                url: "https://www.wikimoe.com/",
+                avatar: "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
+                desc: "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
+            },
+            {
+                name: "Cloud09_Space",
+                url: "https://cloud09.space/",
+                avatar: "https://raw.githubusercontent.com/cloud-oc/picx-images-hosting/refs/heads/master/Origin/Cloud_icon.pfpafpaii.png?spaceId=62ea150e-ff98-40ae-986e-7a386289383f&t=2e3b58d0-50e3-805b-8971-e02a5ca666a9",
+                desc: "云零九空间"
+            },
+            {
+                url: "https://www.nekro.top/",
+                avatar: "https://avatars.githubusercontent.com/u/90670998?v=4",
+                name: "Nekro’s SEKAI",
+                desc: "Nekro 的日常记录与经验分享。"
+            },
+            {
+                name: "VnYzm的博客",
+                url: "https://vnyzm.top",
+                desc: "分享技术心得和摸鱼感想",
+                avatar: "https://vnyzm.top/img/profile.jpg"
+            }
+        ]
     },
     {
         name: "Bangumer们",
