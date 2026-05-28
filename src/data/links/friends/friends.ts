@@ -94,6 +94,12 @@ export const friendsData: LinkCategory[] = [
                 url: "https://vnyzm.top",
                 desc: "分享技术心得和摸鱼感想",
                 avatar: "https://vnyzm.top/img/profile.jpg"
+            },
+            {
+                name: "Z.L Vansiit's blog",
+                url: "https://vansiit.cc/",
+                desc: "技术博客 | 生活随笔 | 唠嗑扯淡",
+                avatar: "https://vansiit.cc/img/logo.svg"
             }
         ]
     },
