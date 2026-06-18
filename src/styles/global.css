@@ -202,6 +202,7 @@ i {
 /* title */
 .hero-title,
 .glow-text,
-.year-label {
+.year-label,
+.link-category-name {
   color: var(--color-accent);
 }
