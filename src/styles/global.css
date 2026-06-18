@@ -5,19 +5,19 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #ffffff;
-  --foreground: #2d2d2d;
-  --accent: #f5a9b8;
-  --muted: #f5f0f1;
-  --border: #e6d8da;
+  --background: #FDF7F8;
+  --foreground: #3A2A2D;
+  --accent: #BB6688;
+  --muted: #F4E3E6;
+  --border: #E8CCD2;
 }
 
 html[data-theme="dark"] {
-  --background: #121212;
-  --foreground: #f4f0f1;
-  --accent: #f5a9b8;
-  --muted: #242021;
-  --border: #3d3133;
+  --background: #1A1315;
+  --foreground: #F6ECEE;
+  --accent: #DDAACC;
+  --muted: #281D21;
+  --border: #423035;
 }
 
 @theme inline {
@@ -49,16 +49,20 @@ i {
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
   }
+
   html {
     @apply overflow-y-scroll scroll-smooth;
   }
+
   body {
     @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/75 selection:text-background;
   }
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
