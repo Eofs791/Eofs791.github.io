@@ -158,36 +158,6 @@ const totalPosts = page.total;
   <Footer />
 </Layout>
 
-<style>
-  /* ── Hero title shimmer ── */
-  .hero-title {
-    background: linear-gradient(
-      135deg,
-      var(--accent) 0%,
-      color-mix(in oklab, var(--accent) 50%, var(--foreground)) 20%,
-      var(--foreground) 35%,
-      var(--foreground) 65%,
-      color-mix(in oklab, var(--accent) 50%, var(--foreground)) 80%,
-      var(--accent) 100%
-    );
-    background-size: 250% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shimmer 6s ease-in-out infinite;
-  }
-
-  @keyframes shimmer {
-    0%,
-    100% {
-      background-position: 0% center;
-    }
-    50% {
-      background-position: 100% center;
-    }
-  }
-</style>
-
 <script>
   document.addEventListener("astro:page-load", () => {
     const indexLayout = (document.querySelector("#main-content") as HTMLElement)

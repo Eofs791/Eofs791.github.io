@@ -23,9 +23,9 @@ export const SITE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   introAudio: {
-    enabled: false,
-    src: "/audio/intro-web.mp3", // ruta al archivo (relativa a /public)
-    label: "INTRO.MP3", // etiqueta display en el reproductor
-    duration: 30, // duración en segundos (para la barra de progreso fija)
+    enabled: true,
+    src: "/audio/intro-web.mp3",
+    label: "INTRO.MP3",
+    duration: 107,
   },
 } as const;
