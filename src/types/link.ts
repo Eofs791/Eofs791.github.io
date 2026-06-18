@@ -1,12 +1,13 @@
 export interface Link {
     url: string;
     avatar: string;
-    name: string;
+    title: string;
+    name?: string;
     desc?: string;
 }
 
 export interface LinkCategory {
-    name: string;
+    title: string;
     desc: string;
     links: Link[];
 }
