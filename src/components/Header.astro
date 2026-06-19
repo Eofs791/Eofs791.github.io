@@ -5,7 +5,13 @@ import Logo from "@/assets/logo/catarium.svg";
 import LinkButton from "./LinkButton.astro";
 import MobileMenu from "./MobileMenu.astro";
 import { SITE } from "@/config";
-import { Icon } from "astro-icon/components";
+import IconArchive from "@/assets/icons/IconArchive.svg";
+import IconCategory from "@/assets/icons/IconCategory.svg";
+import IconTag from "@/assets/icons/IconTag.svg";
+import IconLink from "@/assets/icons/IconLink.svg";
+import IconUser from "@/assets/icons/IconUser.svg";
+import IconMenu from "@/assets/icons/IconMenu.svg";
+import IconClose from "@/assets/icons/IconClose.svg";
 const { pathname } = Astro.url;
 
 // Remove trailing slash from current pathname if exists
@@ -57,16 +63,18 @@ const isActive = (path: string) => {
           <!-- Mobile hamburger (animated lines) -->
           <button
             id="menu-btn"
-            class="hamburger-btn sm:hidden"
-            aria-label="Open Menu"
+            class="group relative h-6 w-6 text-gray-700 transition-colors hover:text-[var(--theme-pink)] focus:outline-none sm:hidden dark:text-gray-200"
+            aria-label="Toggle Menu"
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
-            <div class="hamburger-box">
-              <span class="hamburger-line hamburger-line--1"></span>
-              <span class="hamburger-line hamburger-line--2"></span>
-              <span class="hamburger-line hamburger-line--3"></span>
-            </div>
+            <IconMenu
+              class="absolute top-1/2 left-1/2 size-6 -translate-x-1/2 -translate-y-1/2 scale-100 rotate-0 transition-all duration-300 group-aria-expanded:scale-0 group-aria-expanded:-rotate-90"
+            />
+
+            <IconClose
+              class="absolute top-1/2 left-1/2 size-6 -translate-x-1/2 -translate-y-1/2 scale-0 rotate-90 transition-all duration-300 group-aria-expanded:scale-100 group-aria-expanded:rotate-0"
+            />
           </button>
 
           <!-- Desktop links (always visible on sm+) -->
@@ -83,28 +91,23 @@ const isActive = (path: string) => {
                     title="Archives"
                     aria-label="archives"
                   >
-                    <Icon
-                      name="ri:folder-history-line"
-                      class="hidden sm:inline-block"
-                      size={24}
-                    />
+                    <IconArchive class="size-6" />
                     <span class="sm:sr-only">Archives</span>
                   </LinkButton>
                 </li>
               )
             }
-               <li>
+            <li>
               <LinkButton
                 href="/categories"
-                class:list={["nav-link", { "nav-active": isActive("/categories") }]}
+                class:list={[
+                  "nav-link",
+                  { "nav-active": isActive("/categories") },
+                ]}
                 title="Categories"
                 aria-label="categories"
               >
-                <Icon
-                  name="ri:archive-drawer-line"
-                  class="hidden sm:inline-block"
-                  size={24}
-                />
+                <IconCategory class="size-6" />
                 <span class="sm:sr-only">Categories</span>
               </LinkButton>
             </li>
@@ -115,11 +118,7 @@ const isActive = (path: string) => {
                 title="Tags"
                 aria-label="tags"
               >
-                <Icon
-                  name="ri:price-tag-3-line"
-                  class="hidden sm:inline-block"
-                  size={24}
-                />
+                <IconTag class="size-6" />
                 <span class="sm:sr-only">Tags</span>
               </LinkButton>
             </li>
@@ -143,15 +142,14 @@ const isActive = (path: string) => {
             <li>
               <LinkButton
                 href="/friends"
-                class:list={["nav-link", { "nav-active": isActive("/friends") }]}
+                class:list={[
+                  "nav-link",
+                  { "nav-active": isActive("/friends") },
+                ]}
                 title="Friends"
                 aria-label="friends"
               >
-                <Icon
-                  name="ri:links-line"
-                  class="hidden sm:inline-block"
-                  size={24}
-                />
+                <IconLink class="size-6" />
                 <span class="sm:sr-only">Friend Links</span>
               </LinkButton>
             </li>
@@ -162,11 +160,7 @@ const isActive = (path: string) => {
                 title="About"
                 aria-label="about"
               >
-                <Icon
-                  name="ri:account-box-2-line"
-                  class="hidden sm:inline-block"
-                  size={24}
-                />
+                <IconUser class="size-6" />
                 <span class="sm:sr-only">About</span>
               </LinkButton>
             </li>
@@ -185,8 +179,8 @@ const isActive = (path: string) => {
                     aria-label="auto"
                     aria-live="polite"
                   >
-                    <IconMoon class="absolute top-1/2 left-1/2 -translate-1/2 scale-100 rotate-0 transition-all duration-300 dark:scale-0 dark:-rotate-90" />
-                    <IconSunHigh class="absolute top-1/2 left-1/2 -translate-1/2 scale-0 rotate-90 transition-all duration-300 dark:scale-100 dark:rotate-0" />
+                    <IconMoon class="absolute top-1/2 left-1/2 size-6 -translate-1/2 scale-100 rotate-0 transition-all duration-300 dark:scale-0 dark:-rotate-90" />
+                    <IconSunHigh class="absolute top-1/2 left-1/2 size-6 -translate-1/2 scale-0 rotate-90 transition-all duration-300 dark:scale-100 dark:rotate-0" />
                   </button>
                 </li>
               )

@@ -13,6 +13,11 @@ import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import { SITE } from "@/config";
 import Waline from "@/components/Waline.astro";
+import IconCalendar from "@/assets/icons/IconCalendar.svg";
+import IconUser from "@/assets/icons/IconUser.svg";
+import IconHash from "@/assets/icons/IconHash.svg";
+import IconArrowLeft from "@/assets/icons/IconArrowLeft.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -109,7 +114,7 @@ const nextPost =
                 href={`/tags/${slugifyStr(tag)}/`}
                 class="post-tag-badge inline-flex items-center gap-1 rounded-full border border-accent/20 bg-accent/5 px-2.5 py-0.5 font-cartograph text-xs text-accent transition-all duration-200 hover:border-accent/40 hover:bg-accent/10 hover:shadow-sm hover:shadow-accent/10"
               >
-                <span class="opacity-50">#</span>
+                <IconHash class="size-3"/>
                 {tag}
               </a>
             ))
@@ -124,18 +129,7 @@ const nextPost =
           <div
             class="inline-flex items-center gap-1.5 rounded-lg border border-border/25 bg-muted/10 px-2.5 py-1 backdrop-blur-sm"
           >
-            <svg
-              class="size-3.5 text-accent/70"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
+            <IconUser class="text-[var(--accent)]" />
             <span class="opacity-70">{author}</span>
           </div>
 
@@ -143,20 +137,7 @@ const nextPost =
           <div
             class="inline-flex items-center gap-1.5 rounded-lg border border-border/25 bg-muted/10 px-2.5 py-1 backdrop-blur-sm"
           >
-            <svg
-              class="size-3.5 text-accent/70"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-              <line x1="16" y1="2" x2="16" y2="6"></line>
-              <line x1="8" y1="2" x2="8" y2="6"></line>
-              <line x1="3" y1="10" x2="21" y2="10"></line>
-            </svg>
+            <IconCalendar class="text-[var(--accent)]" />
             <Datetime
               {pubDatetime}
               {modDatetime}
@@ -216,7 +197,7 @@ const nextPost =
               tabindex="-1"
               class="inline-flex items-center gap-1 rounded-full border border-border/25 bg-muted/10 px-2.5 py-1 font-cartograph text-xs transition-all duration-200 hover:border-accent/40 hover:bg-accent/5 hover:text-accent"
             >
-              <span class="opacity-40">#</span>
+              <IconHash class="size-3.5"/>
               {tag}
             </a>
           ))
@@ -245,20 +226,9 @@ const nextPost =
           >
             <div class="post-nav-bg" />
             <div class="flex items-center gap-1.5">
-              <svg
-                class="size-3.5 text-accent/50 transition-transform duration-300 group-hover:-translate-x-1 rtl:rotate-180"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="19" y1="12" x2="5" y2="12" />
-                <polyline points="12 19 5 12 12 5" />
-              </svg>
+              <IconArrowLeft />
               <span class="font-cartograph text-[10px] tracking-wider text-foreground/35 uppercase">
-                Anterior
+                Prev
               </span>
             </div>
             <span class="line-clamp-2 text-sm leading-snug font-medium text-foreground/70 transition-colors duration-200 group-hover:text-accent">
@@ -278,20 +248,9 @@ const nextPost =
             <div class="post-nav-bg" />
             <div class="flex items-center gap-1.5">
               <span class="font-cartograph text-[10px] tracking-wider text-foreground/35 uppercase">
-                Siguiente
+                Next
               </span>
-              <svg
-                class="size-3.5 text-accent/50 transition-transform duration-300 group-hover:translate-x-1 rtl:rotate-180"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12 5 19 12 12 19" />
-              </svg>
+              <IconArrowRight />
             </div>
             <span class="line-clamp-2 text-sm leading-snug font-medium text-foreground/70 transition-colors duration-200 group-hover:text-accent">
               {nextPost.title}
@@ -434,13 +393,7 @@ const nextPost =
 
 <style>
   .post-title {
-    background: linear-gradient(
-      135deg,
-      var(--accent) 0%,
-      color-mix(in oklab, var(--accent) 60%, var(--foreground)) 25%,
-      var(--foreground) 50%,
-      var(--foreground) 100%
-    );
+    background: var(--accent);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
