@@ -8,7 +8,7 @@ export const friendsData: LinkCategory[] = [
             {
                 title: "Mete0r’s Blog | 壹人小站",
                 name: "Mete0r",
-                url: "https://www.xscnas.top",
+                url: "https://www.xscnet.cn/",
                 avatar: "https://img.xscnet.cn//i/2025/07/09/686e64ec429db.png",
                 desc: "Trust the process."
             },
