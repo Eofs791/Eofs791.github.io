@@ -104,6 +104,13 @@ export const friendsData: LinkCategory[] = [
                 url: "https://vansiit.cc/",
                 desc: "技术博客 | 生活随笔 | 唠嗑扯淡",
                 avatar: "https://vansiit.cc/img/logo.svg"
+            },
+            {
+                title: "MaxQi的说说",
+                url: "https://bboreo.com",
+                desc: "一个深度、自主且真实的小世界。来喝杯茶吧！",
+                avatar: "https://p.maxqi.top/img/2025/11/13/69158a2e057e4.jpg",
+                name: "Leo 里奥"
             }
         ]
     },
