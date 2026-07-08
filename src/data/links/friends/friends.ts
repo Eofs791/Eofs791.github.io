@@ -111,6 +111,12 @@ export const friendsData: LinkCategory[] = [
                 desc: "一个深度、自主且真实的小世界。来喝杯茶吧！",
                 avatar: "https://p.maxqi.top/img/2025/11/13/69158a2e057e4.jpg",
                 name: "Leo 里奥"
+            },
+            {
+                title: "洪畅的博客",
+                url: "https://blog.hcbu.cn/",
+                desc: "想，全是问题；做，才有答案。",
+                avatar: "https://gitee.com/hcbug/picture1/raw/master/20260607223324364.webp"
             }
         ]
     },
