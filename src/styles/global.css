@@ -5,19 +5,19 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #FDF7F8;
-  --foreground: #3A2A2D;
-  --accent: #BB6688;
-  --muted: #F4E3E6;
-  --border: #E8CCD2;
+  --background: #F8FAFC; /* 带有极微弱冷调的白 */
+  --foreground: #334155; /* 石板深灰，清晰且现代 */
+  --accent: #BB6688;     /* 保留 */
+  --muted: #F1F5F9;      /* 冷调浅灰，划分层级非常干净 */
+  --border: #E2E8F0;     /* 柔和的冷灰边框 */
 }
 
 html[data-theme="dark"] {
-  --background: #1A1315;
-  --foreground: #F6ECEE;
+  --background: #18181B;
+  --foreground: #F4F4F5;
   --accent: #DDAACC;
-  --muted: #281D21;
-  --border: #423035;
+  --muted: #27272A;
+  --border: #3F3F46;
 }
 
 @theme inline {
