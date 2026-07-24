@@ -8,7 +8,7 @@ layout: ../layouts/PostDetails.astro
 ##### 我的博客信息：
 ```ts
     url: "https://eofs791.github.io",
-    avatar: "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",
+    avatar: "https://resource.catarium.me/avatar.ico",
     name: "Catarium",
     desc: "见崎的猫箱"
 ```
