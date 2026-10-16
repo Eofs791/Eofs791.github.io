@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Bangumi",
+        "url": "https://bgm.tv",
+        "avatar": "https://bgm.tv/img/favicon.ico",
+        "type": "Wiki",
+        "reason": "ACGN中文数据库兼论坛"
+    },
+    {
+        "name": "X岛揭示板",
+        "url": "https://www.nmbxd1.com/Forum",
+        "avatar": "https://www.nmbxd1.com/favicon.ico",
+        "type": "BBS",
+        "reason": "匿名宅向讨论空间"
+    },
+    {
+        "name": "MtF.wiki",
+        "url": "https://mtf.wiki/",
+        "avatar": "https://mtf.wiki/favicon/favicon.ico",
+        "type": "Wiki",
+        "reason": "最好用的胸围计算器（×"
+    },
+    {
+        "name": "Catbox",
+        "url": "https://catbox.moe/",
+        "avatar": "https://catbox.moe/favicon.ico",
+        "type": "Tool",
+        "reason": "二次元向免费图床"
+    },
+    {
+        "name": "MikuTools",
+        "url": "https://tools.miku.ac/",
+        "avatar": "https://tools.miku.ac/favicon.ico",
+        "type": "Tool",
+        "reason": "轻量工具集合"
+    },
+    {
+        "name": "ISML",
+        "url": "https://www.internationalsaimoe.com/",
+        "avatar": "https://www.internationalsaimoe.com/favicon.ico",
+        "type": "Colle",
+        "reason": "世萌"
+    },
+    {
+        "name": "萌娘百科",
+        "url": "https://zh.moegirl.org.cn/",
+        "avatar": "https://zh.moegirl.org.cn/favicon.ico",
+        "type": "Wiki",
+        "reason": "二次元综合维基"
+    },
+    {
+        "name": "OVER THE SAME SKY",
+        "url": "https://10th.fate-go.jp/",
+        "avatar": "https://10th.fate-go.jp/favicon.ico",
+        "type": "Colle",
+        "reason": "FGO十周年视觉图企划"
+    },
+    {
+        "name": "鹰角网络 - HYPERGRYPH",
+        "url": "https://www.hypergryph.com/",
+        "avatar": "https://www.hypergryph.com/favicon.ico",
+        "type": "Colle",
+        "reason": "鹰角官网"
+    },
+    {
+        "name": "長門番堂",
+        "url": "https://yuc.wiki/",
+        "avatar": "https://yuc.wiki/images/32x32.png",
+        "type": "Wiki",
+        "reason": "每季度新番表"
+    },
+    {
+        "name": "H萌",
+        "url": "https://hmacg.cn/",
+        "avatar": "https://hmacg.cn/favicon.ico",
+        "type": "News",
+        "reason": "B站动画区神秘组织"
+    },
+    {
+        "name": "Animex动漫社",
+        "url": "https://www.animetox.com/",
+        "avatar": "https://www.animetox.com/favicon.ico",
+        "type": "News",
+        "reason": "二次元及日本文化最速报"
+    },
+    {
+        "name": "ACG17",
+        "url": "https://acg17.com/",
+        "avatar": "https://acg17.com/favicon.ico",
+        "type": "News",
+        "reason": "ACG资源信息分享"
+    },
+    {
+        "name": "动画巡礼",
+        "url": "https://www.anitabi.cn/",
+        "avatar": "https://www.anitabi.cn/favicon.ico",
+        "type": "Wiki",
+        "reason": "圣地巡礼地图"
+    },
+    {
+        "name": "Mikutap",
+        "url": "https://aidn.jp/mikutap/",
+        "avatar": "https://aidn.jp/mikutap/favicon.ico",
+        "type": "Fun",
+        "reason": "Miku互动型网页音乐网站"
+    },
+    {
+        "name": "石蒜模拟器",
+        "url": "https://lab.magiconch.com/sakana/",
+        "avatar": "https://raw.githubusercontent.com/itorr/sakana/main/html/takina.png",
+        "type": "Fun",
+        "reason": "Sakana~"
+    },
+    {
+        "name": "Wplace",
+        "url": "https://wplace.live/",
+        "avatar": "https://wplace.live/favicon.ico",
+        "type": "Fun",
+        "reason": "可涂鸦地图（已被二次元侵占）"
+    },
+    {
+        "name": "UNDER THE SAME SKY",
+        "url": "https://5th.fate-go.jp/",
+        "avatar": "https://5th.fate-go.jp/assets/img/footer/ph_5thlogo.png",
+        "type": "Colle",
+        "reason": "FGO五周年视觉图企划"
+    },
+    {
+        "name": "GAL图书馆",
+        "url": "https://gallibrary.pw/",
+        "avatar": "https://gallibrary.pw/favicon.ico",
+        "type": "Wiki",
+        "reason": "GalGame数据库"
+    },
+    {
+        "name": "型月辞典",
+        "url": "https://www.tmdict.com/",
+        "avatar": "https://www.tmdict.com/favicon.ico",
+        "type": "Wiki",
+        "reason": "Type-Moon相关词条"
+    },
+    {
+        "name": "Sora's Pixel Converter",
+        "url": "https://pixel-converter.ameniwa.com/",
+        "avatar": "https://pixel-converter.ameniwa.com/assets/sora_ghost-BLwOL9Rq.png",
+        "type": "Tool",
+        "reason": "基于AI的像素图片转换器"
+    }
+]

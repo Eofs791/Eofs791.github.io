@@ -1,0 +1,29 @@
+{
+  "name": "catarium",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "1.1.0",
+    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-theme-yun": "1.1.0",
+    "vue": "^3.5.41",
+    "vue-router": "^5.0.0"
+  },
+  "devDependencies": {
+    "@iconify-json/ri": "^1.2.10",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.0"
+  }
+}

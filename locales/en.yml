@@ -1,0 +1,11 @@
+# you can custom locale
+siteConfig: 
+  subtitle: Welcome to My Small Terrarium
+
+themeConfig:
+  nav:
+    archives: Archives
+    categories: Categories
+    tags: Tags
+    friends: Friends
+    websites: Websites

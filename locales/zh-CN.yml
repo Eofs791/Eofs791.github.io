@@ -1,0 +1,11 @@
+# 你可以像这样自定义 i18n
+siteConfig:
+  subtitle: 欢迎造访我的小箱庭
+
+themeConfig:
+  nav:
+    archives: 归档
+    categories: 分类
+    tags: 标签
+    friends: 友链
+  
