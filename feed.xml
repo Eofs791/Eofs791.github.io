@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Catarium</title>
+        <link>https://blog.saikai.moe/</link>
+        <description></description>
+        <lastBuildDate>Fri, 16 Oct 2026 07:34:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Catarium</title>
+            <url>https://blog.saikai.moe/avatar.svg</url>
+            <link>https://blog.saikai.moe/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © Eofs</copyright>
+        <atom:link href="https://blog.saikai.moe/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[2026年冬季看番总结 | 2026年3月号]]></title>
+            <link>https://blog.saikai.moe/posts/mook/202603</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/mook/202603</guid>
+            <pubDate>Sun, 05 Apr 2026 17:26:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>追</h2>
+<h3>辉夜大小姐想让我告白 通往大人的阶梯 // かぐや様は告らせたい 大人への階段</h3>
+<blockquote>
+<p>再次感慨赤坂的漫改命怎么都这么好。</p>
+</blockquote>
+<p>A1厨力制作不用多说的高质量，其次让我最惊喜的点在于制作组非</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/mook/202603" target="_blank">https://blog.saikai.moe/posts/mook/202603</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用Caddy配置路径反向代理与重定向]]></title>
+            <link>https://blog.saikai.moe/posts/20260221</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20260221</guid>
+            <pubDate>Sat, 21 Feb 2026 19:46:15 GMT</pubDate>
+            <content:encoded><![CDATA[<p>刚刚注册了新域名<a href="https://fleetsnowfluff.page">fleetsnowfluff.page</a>作为飞行雪绒同人网站，正巧服务器跑的鸣潮QQbot好几个服务有WebUI，默认情况下需要暴露服务器公网ip和port才能访问，发送给bot用户的登录url也是<code>ip:port</code>的形式，不够安全和美观，于是打算给新域名找点事做，创建一个子域名，专门托管这些WebUI。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20260221" target="_blank">https://blog.saikai.moe/posts/20260221</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[小搓一个飞行雪绒的个人网站]]></title>
+            <link>https://blog.saikai.moe/posts/20260220</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20260220</guid>
+            <pubDate>Fri, 20 Feb 2026 17:40:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>厨力放出打算自己还原一个设定中的爱弥斯个人站。最终花费两周左右的时间，用自己拙劣的技术写出这个完成度并不算高的纯前端网站。</p>
+<ul>
+<li>地址：<a href="https://fleetsnowfluff.page">fleetsnowfluff.page</a></li>
+<li>项目地址：<a href="https://github.com/Eofs791/FleetSnowfluff_website">https://github.com/Eofs791/FleetSnowfluff_website</a></li>
+</ul>
+<p><img src="https://resource.saikai.moe/post/20260221/fluff_info.png" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20260220" target="_blank">https://blog.saikai.moe/posts/20260220</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[跨年失败，现在是2025年12月32日 00:00:00 | 2025年12月号]]></title>
+            <link>https://blog.saikai.moe/posts/mook/202512</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/mook/202512</guid>
+            <pubDate>Wed, 31 Dec 2025 10:20:36 GMT</pubDate>
+            <content:encoded><![CDATA[<p>年末特刊，这里是我的2025二次元年鉴<br>
+现祝大家2026新年快乐！2025辛苦了！<br>
+<img src="https://resource.saikai.moe/mook/202512/cover2025.jpg" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/mook/202512" target="_blank">https://blog.saikai.moe/posts/mook/202512</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[打字机动画效果实现]]></title>
+            <link>https://blog.saikai.moe/posts/20251225</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251225</guid>
+            <pubDate>Thu, 25 Dec 2025 15:42:13 GMT</pubDate>
+            <content:encoded><![CDATA[<p>::: zh-CN<br>
+圣诞节也在绝赞折腾博客喵~<br>
+:::<br>
+::: en<br>
+Busy improving my blog even on Christmas!<br>
+:::</p>
+<h2>Preview</h2>
+<p><img src="https://resource.saikai.moe/post/20251225/intro_typing.gif" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251225" target="_blank">https://blog.saikai.moe/posts/20251225</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[《鸣潮》2.8版本穗波市的二次元捏他搜罗]]></title>
+            <link>https://blog.saikai.moe/posts/20251130</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251130</guid>
+            <pubDate>Sun, 30 Nov 2025 10:33:20 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://resource.saikai.moe/post/20251130/20251122215007.png" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251130" target="_blank">https://blog.saikai.moe/posts/20251130</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[记录：Alibaba Cloud Linux 4 无法直接通过命令安装 epel 和 dialog 拙解]]></title>
+            <link>https://blog.saikai.moe/posts/20251128</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251128</guid>
+            <pubDate>Fri, 28 Nov 2025 10:43:13 GMT</pubDate>
+            <content:encoded><![CDATA[<p>::: zh-CN<br>
+别选Alibaba Cloud Linux！别选Alibaba Cloud Linux！别选Alibaba Cloud Linux！<br>
+到底是谁在部署ECS的时候手贱选了Alr (T_T)<br>
+:::</p>
+<p>::: en<br>
+Don't choose Alibaba Cloud Linux! Don't choose it!<br>
+Who click Alibaba Cloud Linux when deploy ECS (T_T)<br>
+:::</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251128" target="_blank">https://blog.saikai.moe/posts/20251128</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[测评几款学校里有的魔爪]]></title>
+            <link>https://blog.saikai.moe/posts/20251112</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251112</guid>
+            <pubDate>Wed, 12 Nov 2025 12:33:44 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>💡 <strong>IMPORTANT:</strong> 本篇文章为博主无聊产物，仅为图一乐</p>
+</blockquote>
+<p>发现学校小卖部有国内没有售卖的Java系列魔爪，正巧meal plan送的余额用不掉，便打算每种口味都买一瓶试试口味（结果一共四个口味，一周就干掉三瓶，一瓶6.4加币qwq）<br>
+个人感觉这个系列都很好喝，大部分是甜甜的奶咖~<br>
+<img src="https://resource.saikai.moe/post/20251111/cover_monster.jpg" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251112" target="_blank">https://blog.saikai.moe/posts/20251112</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些学生邮箱可以获取的福利]]></title>
+            <link>https://blog.saikai.moe/posts/20251104</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251104</guid>
+            <pubDate>Tue, 04 Nov 2025 21:38:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>近期开始拿着学生邮箱捣鼓，找到了不少可以用此邮箱薅到的羊毛，故作此整理。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251104" target="_blank">https://blog.saikai.moe/posts/20251104</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[基于NapCat+NoneBot2的QQ机器人相关介绍和部署]]></title>
+            <link>https://blog.saikai.moe/posts/20251031</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20251031</guid>
+            <pubDate>Fri, 31 Oct 2025 13:12:22 GMT</pubDate>
+            <content:encoded><![CDATA[<p>自己捣鼓QQ野生机器人也快一年多了，起初只是自己创建的鸣潮群群友聊起来这个，没想到一弄就是快一年，期间换了好几次服务器，也部署了不少次。</p>
+<p>本篇文章将会介绍我使用过的协议端NapCat，两个机器人框架——NoneBot2和AmiyaBot，以及拓展插件框架GsCore，了解这些便可搭建一个基本的QQBot。<br>
+<img src="https://resource.saikai.moe/post/20251031/0BF1E6573B06C183E491CD689DAAB0C2.png" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20251031" target="_blank">https://blog.saikai.moe/posts/20251031</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[萌新的博客搭建日志]]></title>
+            <link>https://blog.saikai.moe/posts/20250626</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20250626</guid>
+            <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>一个没什么基础的小白建成博客的<s>流水账</s>记录。<br>
+基本完工快一个星期才想起来写篇日志，文章将随着我博客的完善而更新。<br>
+一些基础步骤官方文档里都有些，这里就不赘述了，主要是提一些文档里没有的东西或者自己遇到的问题。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20250626" target="_blank">https://blog.saikai.moe/posts/20250626</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[加拿大学签申请流程梳理]]></title>
+            <link>https://blog.saikai.moe/posts/20250924</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20250924</guid>
+            <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>懵懵懂懂、跌跌撞撞来到加拿大已半月有余，才终于抽出时间写这篇博客（其实就是鸽了一个月），梳理我申请加拿大学签的过程，或许能帮上有缘来这里又有相应需求的人。<br>
+可能有些讲得不太清楚，敬请谅解，欢迎在评论区提问或补充。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20250924" target="_blank">https://blog.saikai.moe/posts/20250924</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[ACGN资源&情报获取渠道收集]]></title>
+            <link>https://blog.saikai.moe/posts/20250706</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20250706</guid>
+            <pubDate>Sun, 06 Jul 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>写在前面</h2>
+<p>在互联网发达、信息储存方式多元化的现在，人们体验和收藏文娱作品的途径无疑是方便而自由的。然而碍于国内的特殊环境、版权的利弊共存性和其他各种因素，许多爱好者并不能安心地通过一般平台接触自</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20250706" target="_blank">https://blog.saikai.moe/posts/20250706</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些个人代肝心得的分享]]></title>
+            <link>https://blog.saikai.moe/posts/20250617</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20250617</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>很早就想写这篇文章了，万恶的拖延症导致现在才开始。文章大致是分享一些23.7-24.1这大半年我混迹在二游代肝市场获得的一些经验，不过由于时间已经过去很久，很多方法不能保证时效性，只能说是我对代肝经历的一些总结吧。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20250617" target="_blank">https://blog.saikai.moe/posts/20250617</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[MY HOME HERO]]></title>
+            <link>https://blog.saikai.moe/posts/20250211</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20250211</guid>
+            <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><meting-js
+   id="2030471133"
+   server="netease"
+   type="song"
+   theme="#C20C0C"><br>
+</meting-js></p>
+<p><img src="https://resource.saikai.moe/post/20250211/20250211.jpg" alt=""><br>
+两周不到补完了，一部很戳我的剧情向漫画，<s>甚至勾起了我回去看辣鸡漫改动画的欲望</s>。</p>
+<p>以亲情为主题、普通人为主角的作品总是那么容易让读者共情。</p>
+<p>关于大家的诟病的强行续篇问题，诚然这一操作确实在后期引起了一些问题。第二部的结尾明明可以直接以组织覆灭、男主伏法结束整个故事，却为了画第三部导致漥的战力完全崩坏，确实有点狗尾续貂了。不过好在第三部完善了女儿零花这个在前两部较为工具人的角色，体现她的成长，<s>而且还给我最喜欢的一位角色——恭一小哥加了戏份</s>，只能说强行续篇有利有弊吧。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20250211" target="_blank">https://blog.saikai.moe/posts/20250211</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[随便总结一下个人的2024吧 | 2024年12月号]]></title>
+            <link>https://blog.saikai.moe/posts/mook/202412</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/mook/202412</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>又是虚度时光的一年，看过的动画越来越少了，只点了50部不到。本来打算这一年看过动画破1000的，只能把这个目标延到新的一年完成了。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/mook/202412" target="_blank">https://blog.saikai.moe/posts/mook/202412</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于尘白如何一步步走上不归路，以及2.3文案暴雷事件]]></title>
+            <link>https://blog.saikai.moe/posts/20241110</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20241110</guid>
+            <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>观前提示</h2>
+<p>本人是开服玩过没多久弃坑，并在1.5版本被凯西娅吸引重新建号回坑、到现在玩了10个月尘白的玩家。个人属于纯xp玩家，氪了1k多进去都是买皮肤，从一开始的兴趣满满到现在也懒得上线，上个泳装版本就几乎没玩。写这篇纯属有感而发，都是个人作为玩家的主观观点，至于行业内部利益相关的复杂因素就不予讨论了。可能写的比较乱望见谅。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20241110" target="_blank">https://blog.saikai.moe/posts/20241110</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[NieR: Automata]]></title>
+            <link>https://blog.saikai.moe/posts/20230705</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20230705</guid>
+            <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><meting-js
+   id="468490577"
+   server="netease"
+   type="song"
+   theme="#C20C0C"><br>
+</meting-js></p>
+<h2></h2>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20230705" target="_blank">https://blog.saikai.moe/posts/20230705</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fate/hollow ataraxia]]></title>
+            <link>https://blog.saikai.moe/posts/20230219</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20230219</guid>
+            <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>存档</h3>
+<p>[Fate/hollow ataraxia.zip](<a href="https://resource.saikai.moe/post/20230219/Fate_hollow_ataraxia.zi">https://resource.saikai.moe/post/20230219/Fate_hollow_ataraxia.zi</a></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20230219" target="_blank">https://blog.saikai.moe/posts/20230219</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[2022番斯卡获奖名单 | 2022年12月号]]></title>
+            <link>https://blog.saikai.moe/posts/mook/202212</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/mook/202212</guid>
+            <pubDate>Sat, 31 Dec 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>新番奖项</h2>
+<blockquote>
+<p>以下获奖选手皆从今年看过的新番中选择</p>
+</blockquote>
+<p>Top：《辉夜大小姐想让我告白-超级浪漫-》、《赛博朋克：边缘行者》、《孤独摇滚！》<br>
+提名：《来自深渊 烈日的黄金乡》、《灵能百分</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/mook/202212" target="_blank">https://blog.saikai.moe/posts/mook/202212</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[《白箱》涉及动画业界术语整理]]></title>
+            <link>https://blog.saikai.moe/posts/20220802</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220802</guid>
+            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>动画：指动画师按照原画师的指示在原画之间绘制中间帧。</li>
+<li>M：指BGM，背景音乐。</li>
+<li>旋转镜头：指以被摄体为轴，摄像机进行大幅度旋转的镜头，对作画来说十分复杂，现在此类镜头多用3DCG来解决。</li>
+</ul>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220802" target="_blank">https://blog.saikai.moe/posts/20220802</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[寄生獣 セイの格率 随便的一些记录]]></title>
+            <link>https://blog.saikai.moe/posts/20220714</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220714</guid>
+            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><meting-js
+   id="29553153"
+   server="netease"
+   type="song"
+   theme="#005B8F"><br>
+</meting-js></p>
+<p>一部很</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220714" target="_blank">https://blog.saikai.moe/posts/20220714</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[Fate/stay night]]></title>
+            <link>https://blog.saikai.moe/posts/20220617</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220617</guid>
+            <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>存档</h3>
+<p><a href="https://resource.saikai.moe/post/20220617/Fate%20stay%20night.zip">Fate/stay night 全收集存档</a><br>
+[#</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220617" target="_blank">https://blog.saikai.moe/posts/20220617</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[“和绝望好好相处下去吧”]]></title>
+            <link>https://blog.saikai.moe/posts/20220513</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220513</guid>
+            <pubDate>Fri, 13 May 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><meting-js
+   id="520459951"
+   server="netease"
+   type="song"
+   theme="#FFFFFF"><br>
+</meting-js></p>
+<p>少女</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220513" target="_blank">https://blog.saikai.moe/posts/20220513</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[《 霸 权 社 十 周 年 纪 念 作 品 》]]></title>
+            <link>https://blog.saikai.moe/posts/20220324</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220324</guid>
+            <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>对《国王排名》的一些锐评。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220324" target="_blank">https://blog.saikai.moe/posts/20220324</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[通过another和寒蝉简谈一下个人对悬疑类动画恐怖之处的看法]]></title>
+            <link>https://blog.saikai.moe/posts/20220307</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220307</guid>
+            <pubDate>Mon, 07 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>刚补完十年前的一月新番another，真的是梦回去年夏天补寒蝉的时候，这时突发奇想这一类悬疑类的动画恐怖的点到底在哪里，又因为another和寒蝉这两部作品的相似，所以打算通过它们的对比谈谈我的看法。<br>
+<img src="https://resource.saikai.moe/post/20220307/20220307.jpg" alt=""></p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220307" target="_blank">https://blog.saikai.moe/posts/20220307</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[注定不断轮回的BAD ENDING《恶魔人 crybaby》]]></title>
+            <link>https://blog.saikai.moe/posts/20220305</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220305</guid>
+            <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>没看过原作和其他版本的动画，仅仅是因为最近觉得这部番的OST带感而补完。</p>
+<p>一开始一直觉得整部动画也就是讲明和了一起打败恶魔的故事，最多就是中间多一点意见不合之类的小摩擦罢了，直到看完第六集。第六集之</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220305" target="_blank">https://blog.saikai.moe/posts/20220305</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[死亡笔记不该存在于世上]]></title>
+            <link>https://blog.saikai.moe/posts/20220129</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20220129</guid>
+            <pubDate>Sat, 29 Jan 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>21号终于补完了一直以来都很想看的死亡笔记。<br>
+30号终于开始写观后感了。<br>
+说实话补完之后自闭了好久，一直处于一种震撼、难以置信、不能接受的状态中。<br>
+BE</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20220129" target="_blank">https://blog.saikai.moe/posts/20220129</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[个人2021年年度ACGN总结 | 2021年12月号]]></title>
+            <link>https://blog.saikai.moe/posts/mook/202112</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/mook/202112</guid>
+            <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>入站第一年总结（其实是7个月）</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/mook/202112" target="_blank">https://blog.saikai.moe/posts/mook/202112</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[《Sonny Boy》——一部实验性作品]]></title>
+            <link>https://blog.saikai.moe/posts/20211121</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20211121</guid>
+            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>一篇粗略的观后感。</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20211121" target="_blank">https://blog.saikai.moe/posts/20211121</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[《进击的巨人》——很难评价的一部作品]]></title>
+            <link>https://blog.saikai.moe/posts/20210614</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20210614</guid>
+            <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>观看这部作品之前，即使我不想被剧透或是看到他人的观点，我都多多少少有接触，要完全不被这些所影响是不可能的。<br>
+显然我是带着主观的认识去看完这部作品的，因此最后两个篇章的观感从一开始就不是很好，</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20210614" target="_blank">https://blog.saikai.moe/posts/20210614</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, World!]]></title>
+            <link>https://blog.saikai.moe/posts/20070503</link>
+            <guid isPermaLink="false">https://blog.saikai.moe/posts/20070503</guid>
+            <pubDate>Thu, 03 May 2007 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Hello, World!</h2>
+<p>::: zh-CN<br>
+这里是一切的起点。<br>
+:::</p>
+<p>::: en<br>
+This is the beginning of everything.<br>
+:::</p>
+<br/><p>访问 <a href="https://blog.saikai.moe/posts/20070503" target="_blank">https://blog.saikai.moe/posts/20070503</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Eofs)</author>
+        </item>
+    </channel>
+</rss>
